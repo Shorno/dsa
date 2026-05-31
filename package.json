@@ -3,9 +3,6 @@
   "module": "recursion/index.ts",
   "type": "module",
   "private": true,
-  "scripts": {
-    "run" : "bun run recursion/index.ts"
-  },
   "devDependencies": {
     "@types/bun": "latest"
   },
