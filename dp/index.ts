@@ -7,7 +7,6 @@ function checkSum(number: number, num_arr: number[], memo: Record<number, boolea
     for (const num of num_arr){
         const remaining = number - num;
 
-
         if(checkSum(remaining, num_arr, memo)){
             memo[number] = true;
             return  true;
