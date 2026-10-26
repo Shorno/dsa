@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Run basics.cpp",
+    "command": "g++ basics.cpp -o basics.exe && basics.exe",
+    "cwd": "$ZED_WORKTREE_ROOT/c++",
+    "shell": {
+      "program": "C:\\Windows\\System32\\cmd.exe"
+    },
+    "save": "all"
+  }
+]
